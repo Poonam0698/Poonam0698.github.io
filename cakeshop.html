@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>cupcake shop</title>
+
+<style>
+
+div.pad {
+  padding: 20px;
+  border: 4px solid #4CAF50;
+  background-color: none;
+}
+body {
+margin : 0 ;
+} 
+
+
+div.gallery img {
+  width: 100%;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.button {
+ 
+  border-radius: 8px;
+  background-color: 	#4169E1;
+  border: none;
+  color: white;
+  font-family:Comic Sans MS;
+  text-align: center;
+  font-size:20px;
+  padding: 10px;
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+
+}
+.button span {
+ 
+  
+  position: relative;
+  transition: 0.4s;
+}
+.button span:after {
+  content: ' \00bb';
+  
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.button:hover span {
+  padding-right: 20px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+}
+
+.column {
+margin-top:25px;
+  float: left;
+  padding: 10px;
+}
+.column.side {
+  width: 25%;
+  float: right;
+  width: 290px;
+}
+.column.newside {
+	width: 25%;
+  float: right;
+  width: 300px;
+  height: 624px;
+	padding: 25px;
+ background-color: #EFF1F2;
+  font-family:Comic Sans MS;
+}
+
+
+
+.column.middle {
+
+  width: 70%;
+  padding: 25px;
+  width: 800px;
+  box-sizing: border-box;
+  background-color: #EFF1F2;
+  font-family:Comic Sans MS;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+.sub {
+  
+  padding: 10px;
+  width: 720px;
+  line-height: 1;
+  background-color: #FFFFFF;
+  outline-style: inset;
+  outline-color: #EFF1F2;
+  font-family:Comic Sans MS;	
+margin-top:20px;	
+	
+}
+
+aside {
+margin:10px;<!--not working-->
+    width: 25%;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    
+}
+
+img {
+padding:5px;
+width: 250px;
+ height: 250px;
+ float: left;
+ margin-right: 15px; 
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;"
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+  
+}
+
+
+a:visited {
+  color: white;
+}
+
+
+a:hover {
+  color: white;
+}
+
+
+a:active {
+  color: #1B52DA;
+}
+
+.column.middle {
+
+  width: 70%;
+  padding: 25px;
+  width: 800px;
+  box-sizing: border-box;
+  background-color: #E5E8E8;
+  font-family:Comic Sans MS;
+}
+.row {
+margin: 0 -5px;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+margin-top:25px;
+  float: left;
+  padding: 10px;
+}
+.column.side {
+  width: 25%;
+  float: right;
+  width: 290px;
+}
+.column.newside {
+	width: 45%;
+  float: right;
+  width: 500px;
+  height: 624px;
+	padding: 25px;
+ background-color: #E5E8E8;
+  font-family:Comic Sans MS;
+}
+.div1 {
+  
+  width: 400px;
+  height: 50px;
+  border: 1px solid blue;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+
+
+
+</style>
+</head>
+<body>
+
+<div class="pad">
+<h1 id="garden" style="font-size:125%;color:black; font-family:Comic Sans MS;">Cupcake Shop</h1>
+</div><br><br>
+
+<div class="row">
+<div class="column middle" >
+<div class="food">
+<img src="cs.jpg" alt=""  >
+</div>
+<div class="food">
+<img src="cake1.jpg" alt="the meadows" style="margin-left:30px;" >
+</div>
+<p>Lovely House, Santacruz East, Eastern Suburbs<br>
+4.3/5</p>
+</div>
+<br>
+
+<div id="review" class="column newside">
+<h2>Our Speciality</h2>
+
+<ul style="list-style-type:disc;">
+  <li>Devils Delight</li>
+  <li>Red Velvet</li>
+  <li>Dutch Chocolote</li>
+  <li>Pineapple cake</li>
+
+
+
+
+</ul>  
+<br>
+<b>Reviews:</b>
+<br>
+<div class="div1">Good Taste.</div>
+<br>
+<div class="div1">very soft and delecious cakes.. I'm just loving it</div>
+<br>
+<div class="div1">Must try: Devils Delight</div>
+
+</div>
+
+
+
+
+<div class="column middle" >
+<img src="cake4.jpg" alt="Butterscotch">
+<h3>Butterscotch</h3>
+<p>Order Now!!</p>
+<p style="font-family:Times New Roman;letter-spacing: 1px;">Very Good</p>
+<p style="font-family:Times New Roman; font-size:20px;"> <small>Starting from just</small><span style="color:red"> Rs.380</span></p>
+<button onclick="promtt()" class="button" style="vertical-align:middle"><span>Order</span></button>
+<p id="demo"></p>
+
+</div>
+
+<div class="column middle">
+<img src="blackforest.jpg" alt="blackforest" >
+<h3>blackforest</h3>
+<p></p>
+<p style="font-family:Times New Roman;letter-spacing: 1px;">@Rs.350</p>
+<p style="font-family:Times New Roman; font-size:20px;"><span style="color:red"> 35% off</span></p>
+<a href="garden.html" class="button" style="vertical-align:middle"><span>Order</a></span></button>
+<p id="demo"></p>
+</div>
+
+<div class="column middle">
+<img src="cake1.jpg" alt="Dutch Chocolate" >
+<h3>Dutch Chocolate</h3>
+<p>Veg special</p>
+<p style="font-family:Times New Roman;letter-spacing: 1px;">@Rs.400</p>
+<p style="font-family:Times New Roman; font-size:20px;"> <span style="color:red"> 40% off</span></p>
+<button onclick="promtt()" class="button" style="vertical-align:middle"><span>Order</span></button>
+<p id="demo"></p>
+</div>
+
+<div class="column middle">
+<img src="cake3.jpg" alt="cupcake" >
+<h3>Cupcakes</h3>
+<p></p>
+<p style="font-family:Times New Roman;letter-spacing: 1px;">per @Rs.25 only!</p>
+<p style="font-family:Times New Roman; font-size:20px;"> <span style="color:red"> 40% off</span></p>
+<button onclick="promtt()" class="button" style="vertical-align:middle"><span>Order</span></button>
+<p id="demo"></p>
+</div>
+
+
+<div class="column middle">
+<img src="pine.jpg" alt="Pineapple" >
+<h3>Pineapple</h3>
+<p></p>
+<p style="font-family:Times New Roman;letter-spacing: 1px; font-size:20px;">@Rs.300</p>
+<p style="font-family:Times New Roman; font-size:20px;"> <span style="color:red"> 35% off</span></p>
+<button onclick="promtt()" class="button" style="vertical-align:middle"><span>Order</span></button>
+<p id="demo"></p>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
+
+

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> home</title>
+
+<style>
+body {
+margin : 0 ;
+}
+
+.nav{
+
+width:100% ;
+background: #191970 ;
+height:80px;
+}
+
+ul {
+list-style : none;
+padding : 0;
+margin :0;
+position:absolute ;
+}
+
+ul li {
+border-radius:10px;
+float: left;
+margin-top :20px;
+}
+
+ul li:hover
+{
+background-color:green;
+}
+
+ul li a {
+width:150px;
+color: white;
+display: block;
+text-decoration: none;
+font-size:20px;
+text-align:center ;
+padding:10px;
+border-radius:10px;
+font-family:Century Gothic;
+font-weight:bold;
+}
+
+a:hover{
+background:#669900;
+}
+
+ul li ul  {
+background:#000033 ;
+}
+
+ul li ul li{
+float:none;
+}
+
+ul li ul {
+display:none;
+}
+
+ul li:hover ul {
+display:block;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.btn {
+
+  border-radius: 8px;
+  background-color: 	#4169E1;
+  border: none;
+  color: white;
+  font-family:Comic Sans MS;
+  text-align: center;
+  font-size:20px;
+  padding: 10px;
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+
+}
+.btn span {
+
+
+  position: relative;
+  transition: 0.4s;
+}
+.btn span:after {
+  content: ' \00bb';
+
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.btn:hover span {
+  padding-right: 20px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+}
+
+.column {
+margin-top:25px;
+  float: left;
+  padding: 10px;
+}
+.column.side {
+  width: 25%;
+  float: right;
+  width: 290px;
+}
+.column.newside {
+	width: 25%;
+  float: right;
+  width: 300px;
+  height: 624px;
+	padding: 25px;
+ background-color: #E5E8E8;
+  font-family:Comic Sans MS;
+}
+
+
+
+.column.middle {
+
+  width: 70%;
+  padding: 25px;
+  width: 800px;
+  box-sizing: border-box;
+  background-color: #E5E8E8;
+  font-family:Comic Sans MS;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+.sub {
+
+  padding: 10px;
+  width: 720px;
+  line-height: 1;
+  background-color: #FFFFFF;
+  outline-style: inset;
+  outline-color: #EFF1F2;
+  font-family:Comic Sans MS;
+margin-top:20px;
+
+}
+
+aside {
+margin:10px;
+    width: 25%;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+
+}
+
+img {
+padding:5px;
+width: 250px;
+ height: 250px;
+ float: left;
+ margin-right: 15px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;"
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+
+}
+
+
+a:visited {
+  color: white;
+}
+
+
+a:hover {
+  color: white;
+}
+
+
+a:active {
+  color: #1B52DA;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="nav">
+<ul>
+<li> <a href ="#"> Home</a></li>
+<li> <a href ="#"> Menu</a>
+<ul>
+
+<li> <a href ="south-Indian.html"> South indian</a></li>
+<li> <a href ="punjabi.html"> Punjabi</a></li>
+<li> <a href ="chinese.html"> Chinese</a></li>
+<li> <a href ="italian.html"> Italian</a></li>
+<li> <a href ="guju.html"> Gujrathi</a></li>
+<li> <a href ="French.html"> French</a>
+</ul>
+</li>
+<li> <a href ="first.html"> Offers</a>
+<li> <a href ="login.html">Login</a></li>
+
+<li> <a href ="feedback.html"> feedback</a></li>
+<li> <a href ="aboutus.html"> About us</a></li>
+
+</ul>
+</li>
+
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="lasagna.jpg" alt="Ajanta1" width="600" height="500">
+
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="Foodie.jpg" alt="Ajanta2" width="600" height="400" >
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="ice.jpg" alt="Ajanta3" width="600" height="400">
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="Momos.jpg" alt="Ajanta4" width="600" height="400">
+  </div>
+</div>
+
+
+
+<hr>
+<h3 id="hotels" style="font-size:125%;color:#1B52DA; font-family:Comic Sans MS;">Here are the restaurants!</h3>
+
+
+<div class="column middle" >
+<img src="pizza1.jpg" alt="">
+<h3>Dominos Pizza</h3>
+<p>Order Now!!</p>
+<p style="font-family:fantasy;letter-spacing: 1px;">Very Good</p>
+<p style="font-family:Times New Roman; font-size:20px;"> <small>Starting from just</small><span style="color:red"> Rs.99</span></p>
+<a href="gardent.html" class="btn">Order</a>
+<p id="demo"></p>
+
+</div>
+
+<div class="column middle">
+<img src="chicken.jpg" alt="Garden Treat Restaurant" >
+<h3>Garden Treat Restaurant</h3>
+<p>The best regional cuisine</p>
+<p style="font-family:fantasy;letter-spacing: 1px;">Excellent</p>
+<p style="font-family:Times New Roman; font-size:20px;"><span style="color:red"> 35% off</span></p>
+<a href="gardent.html" class="btn">Order</a>
+<p id="demo"></p>
+</div>
+
+<div class="column middle">
+<img src="north.jpg" alt="kake da hotel" >
+<h3>Kake da hotel</h3>
+<p>All things south Indian and Moghlai</p>
+<p style="font-family:fantasy;letter-spacing: 1px;">Good</p>
+<p style="font-family:Times New Roman; font-size:20px;"> <span style="color:red"> 40% off</span></p>
+<a href="ka.html" class="btn">Order</a>
+<p id="demo"></p>
+</div>
+</div>
+
+<div class="column middle">
+<img src="cake.jpg" alt="cup cake shop" >
+<h3>Cup Cake Shot</h3>
+<p>Delecious Cakes</p>
+<p style="font-family:fantasy;letter-spacing: 1px;">Good</p>
+<p style="font-family:Times New Roman; font-size:20px;"> <span style="color:red"> 25% off</span></p>
+<a href="cakeshop.html" class="btn">Order</a>
+<p id="demo"></p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>

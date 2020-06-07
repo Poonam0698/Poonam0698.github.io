@@ -1,0 +1,373 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>garden treat</title>
+
+<style>
+
+div.pad {
+  padding: 20px;
+  border: 4px solid #4CAF50;
+  background-color: none  ;
+}
+body {
+margin : 0 ;
+} 
+
+
+div.gallery img {
+  width: 100%;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.btn {
+ 
+  border-radius: 8px;
+  background-color: 	#4169E1;
+  border: none;
+  color: white;
+  font-family:Comic Sans MS;
+  text-align: center;
+  font-size:20px;
+  padding: 10px;
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+
+}
+.btn span {
+ 
+  
+  position: relative;
+  transition: 0.4s;
+}
+.btn span:after {
+  content: ' \00bb';
+  
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.btn:hover span {
+  padding-right: 20px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+}
+
+.column {
+margin-top:25px;
+  float: left;
+  padding: 10px;
+}
+.column.side {
+  width: 25%;
+  float: right;
+  width: 290px;
+}
+.column.newside {
+	width: 25%;
+  float: right;
+  width: 300px;
+  height: 624px;
+	padding: 25px;
+ background-color: #EFF1F2;
+  font-family:Comic Sans MS;
+}
+
+
+
+.column.middle {
+
+  width: 70%;
+  padding: 25px;
+  width: 800px;
+  box-sizing: border-box;
+  background-color: #EFF1F2;
+  font-family:Comic Sans MS;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+.sub {
+  
+  padding: 10px;
+  width: 720px;
+  line-height: 1;
+  background-color: #FFFFFF;
+  outline-style: inset;
+  outline-color: #EFF1F2;
+  font-family:Comic Sans MS;	
+margin-top:20px;	
+	
+}
+
+aside {
+margin:10px;<!--not working-->
+    width: 25%;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    
+}
+
+img {
+padding:5px;
+width: 250px;
+ height: 250px;
+ float: left;
+ margin-right: 15px; 
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;"
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+  
+}
+
+
+a:visited {
+  color: white;
+}
+
+
+a:hover {
+  color: white;
+}
+
+
+a:active {
+  color: #1B52DA;
+}
+
+.column.middle {
+
+  width: 70%;
+  padding: 25px;
+  width: 800px;
+  box-sizing: border-box;
+  background-color: #EFF1F2;
+  font-family:Comic Sans MS;
+}
+.row {
+margin: 0 -5px;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+margin-top:25px;
+  float: left;
+  padding: 10px;
+}
+.column.side {
+  width: 25%;
+  float: right;
+  width: 290px;
+}
+.column.newside {
+	width: 45%;
+  float: right;
+  width: 500px;
+  height: 624px;
+	padding: 25px;
+ background-color: #EFF1F2;
+  font-family:Comic Sans MS;
+}
+.div1 {
+  
+  width: 400px;
+  height: 50px;
+  border: 1px solid blue;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+
+
+
+</style>
+</head>
+<body>
+
+<div class="pad">
+<h1 id="garden" style="font-size:125%;color:black; font-family:Comic Sans MS;">Garden Treat Restaurant</h1>
+</div><br><br>
+
+<div class="row">
+<div class="column middle" >
+<div class="food">
+<img src="garden.jpg" alt=""  >
+</div>
+<div class="food">
+<img src="garden1.jpg" alt="the meadows" style="margin-left:30px;" >
+</div>
+<p>Lovely House, Santacruz East, Eastern Suburbs<br>
+4.3/5</p>
+</div>
+<br>
+
+<div id="review" class="column newside">
+<h2>Our Speciality</h2>
+
+<ul style="list-style-type:disc;">
+  <li>Chicken Biryani</li>
+  <li>Chicken Crispy</li>
+  <li>Fish</li>
+  <li>North East food</li>
+
+
+
+
+</ul>  
+<br>
+<b>Reviews:</b>
+<br>
+<div class="div1">Amazing food.</div>
+<br>
+<div class="div1">slightly expensive but taste is good.</div>
+<br>
+<div class="div1">staff was too good and taste is just yumm!!.</div>
+
+</div>
+
+
+
+
+<div class="column middle" >
+<img src="chick.jpg" alt="">
+<h3>Chicken Biryani</h3>
+<p>Order Now!!</p>
+<p style="font-family:fantasy;letter-spacing: 1px;">Very Good</p>
+<p style="font-family:Times New Roman; font-size:20px;"> <small>Starting from just</small><span style="color:red"> Rs.380</span></p>
+<a href="amount.html" class="btn">Order</a>
+<p id="demo"></p>
+
+</div>
+
+<div class="column middle">
+<img src="rice-soup.jpg" alt="Garden Treat Restaurant" >
+<h3>Rice Soup</h3>
+<p></p>
+<p style="font-family:fantasy;letter-spacing: 1px;">Excellent</p>
+<p style="font-family:Times New Roman; font-size:20px;"><span style="color:red"> 35% off</span></p>
+<a href="amount.html" class="btn">Order</a>
+<p id="demo"></p>
+</div>
+
+<div class="column middle">
+<img src="paneer_c.jpg" alt="kake da hotel" >
+<h3>Paneer Crispy</h3>
+<p>Veg special</p>
+<p style="font-family:fantasy;letter-spacing: 1px;">Good</p>
+<p style="font-family:Times New Roman; font-size:20px;"> <span style="color:red"> 40% off</span></p>
+<a href="amount.html" class="btn">Order</a>
+<p id="demo"></p>
+</div>
+
+<div class="column middle">
+<img src="man_soup.jpg" alt="kake da hotel" >
+<h3>Manchurian Soup</h3>
+<p></p>
+<p style="font-family:fantasy;letter-spacing: 1px;">Good</p>
+<p style="font-family:Times New Roman; font-size:20px;"> <span style="color:red"> 40% off</span></p>
+<a href="amount.html" class="btn">Order</a>
+<p id="demo"></p>
+</div>
+
+
+<div class="column middle">
+<img src="veg_dum.jpg" alt="kake da hotel" >
+<h3>Veg Dum Biryani</h3>
+<p></p>
+<p style="font-family:fantasy;letter-spacing: 1px;">Good</p>
+<p style="font-family:Times New Roman; font-size:20px;"> <span style="color:red"> 35% off</span></p>
+<a href="amount.html" class="btn">Order</a>
+<p id="demo"></p>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+<title>Amount to Paay</title>
+<link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+<script>
+function success() {
+  alert("Order Placed!");
+}
+</script>
+<body>
+
+<div class="register">
+<form method="post" name="f" id="register" action="">
+<h2><center>Pay Your bill</center></h2>
+<label><center>Amount to be pay :</center></label><br>
+<center><input type="text" name="Fname" id="name"
+placeholder="Enter Amount"></center><br>
+
+<label><center>Payment type :</center></label><br>
+<center><select id="ph">
+<option>Crdit Card/debit card</option>
+<option>Payment On Delivery</option>
+
+</center></select>
+<br>
+<br>
+
+<center><input type="SUBMIT" value="Confirm Order" id="sub" onclick="success()"></center>
+
+</form>
+</div>

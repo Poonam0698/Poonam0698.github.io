@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+<title>Registration Form</title>
+<link rel="stylesheet" type="text/css" href="style3.css">
+
+
+</head>
+<script>
+	function checkpassword()
+	{
+	var p=f.pass.value;
+	var cp=f.cpass.value;
+	//using if...else
+	if(p==cp)
+	alert("password and confirm password are similar")
+	else
+	alert("Password is mismatch!")
+	//using ternary operator
+	msg=(p==cp)?"Both are some":"mismatch"
+	alert(msg)
+	}
+
+function success() {
+  alert("Registration Done!");
+}
+</script>
+</script>
+<body>
+
+<div class="register">
+<form method="post" name="f" id="register" action="">
+<h2><center>Register Here</center></h2>
+<label><center>First Name :</center></label><br>
+<center><input type="text" name="Fname" id="name"
+placeholder="Enter Your First Name"></center><br>
+
+<label><center>Last Name :</center></label><br>
+<center><input type="text" name="Lname" id="name"
+placeholder="Enter Your Last Name"></center><br>
+
+<label><center>Mobile Number :</center></label><br>
+<center><select id="ph">
+<option>+91</option>
+<option>+92</option>
+<option>+93</option>
+<option>+94</option>
+<option>+95</option>
+</center></select>
+<input type="numer" name="MNum" id="num"
+placeholder="Enter Your Mobile Number"></center><br>
+
+
+<label><center>Email Id :</center></label><br>
+<center><input type="email" name="email" id="name"
+placeholder="Enter Your Email Id"></center><br>
+
+<label><center>Adress :</center></label><br>
+<center><input type="text" name="address" id="name"
+placeholder="Enter Your Address"></center><br>
+
+<label><center>Password :</center></label><br>
+<center><input type="password" name="pass" id="name"
+placeholder="Enter Your Password"></center><br>
+
+<label><center>Re Enter Your Passsword :</center></label><br>
+<center><input type="password" name="cpass" id="name"
+placeholder="Enter Your Password" onclick="checkpassword()"></center><br>
+
+<center><input type="radio" name="male" id="male"><span
+id="male">&nbsp;Male</span>&nbsp;&nbsp;
+<input type="radio" name="male" id="male"><span
+id="male">&nbsp;Female</span>&nbsp;&nbsp;
+<input type="radio" name="male" id="male"><span
+id="male">&nbsp;Other</span>&nbsp;&nbsp;<br><br>
+<center><input type="SUBMIT" value="SUMBIT" id="sub" onclick="success()"></center>
+</form>
+</div>
